@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -49,9 +50,13 @@ namespace Buoi07_TinhToan3
 
       private void txtSo1_Leave(object sender, EventArgs e)
       {
-         if ("".Equals(txtSo1.Text) || txtSo1.Text == null)
+         if ("".Equals(txtSo1.Text) || txtSo1.Text == null )
          {
             MessageBox.Show("Chưa nhập dữ liệu ô thứ nhất", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            txtSo1.Focus();
+         }
+         else if (!validateInput(txtSo1.Text.ToString())){
+            MessageBox.Show("Dữ liệu nhập vào ô thứ nhất không phải là số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             txtSo1.Focus();
          }
       }
@@ -63,6 +68,21 @@ namespace Buoi07_TinhToan3
             MessageBox.Show("Chưa nhập dữ liệu ô thứ hai", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             txtSo2.Focus();
          }
+         else if (!validateInput(txtSo2.Text.ToString()))
+         {
+            MessageBox.Show("Dữ liệu nhập vào ô thứ 2 không phải là số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            txtSo2.Focus();
+         }
+      }
+
+      private bool validateInput(string str)
+      {
+         Regex regex = new Regex(@"^[+-]?([0-9]+([.][0-9]*)?|[.][0-9]+)$");
+         if (regex.IsMatch(str))
+         {
+            return true;
+         }
+         return false;
       }
    }
 }
