@@ -46,5 +46,23 @@ namespace Buoi07_TinhToan3
             //Hiển thị kết quả lên trên ô kết quả
             txtKq.Text = kq.ToString();
         }
-    }
+
+      private void txtSo1_Leave(object sender, EventArgs e)
+      {
+         if ("".Equals(txtSo1.Text) || txtSo1.Text == null)
+         {
+            MessageBox.Show("Chưa nhập dữ liệu ô thứ nhất", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            txtSo1.Focus();
+         }
+      }
+
+      private void txtSo2_Leave(object sender, EventArgs e)
+      {
+         if ("".Equals(txtSo2.Text) || txtSo2.Text == null)
+         {
+            MessageBox.Show("Chưa nhập dữ liệu ô thứ hai", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            txtSo2.Focus();
+         }
+      }
+   }
 }
