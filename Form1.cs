@@ -93,5 +93,12 @@ namespace Buoi07_TinhToan3
          }
          return false;
       }
+
+      private void onClick(object sender, EventArgs e)
+      {
+         var textBox = (TextBox)sender;
+         textBox.SelectAll();
+         textBox.Focus();
+      }
    }
 }

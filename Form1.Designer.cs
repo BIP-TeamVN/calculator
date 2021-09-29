@@ -105,6 +105,7 @@
          this.txtSo2.Size = new System.Drawing.Size(100, 26);
          this.txtSo2.TabIndex = 13;
          this.txtSo2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+         this.txtSo2.Click += new System.EventHandler(this.onClick);
          this.txtSo2.Leave += new System.EventHandler(this.txtSo2_Leave);
          // 
          // label2
@@ -125,6 +126,7 @@
          this.txtSo1.Size = new System.Drawing.Size(100, 26);
          this.txtSo1.TabIndex = 11;
          this.txtSo1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+         this.txtSo1.Click += new System.EventHandler(this.onClick);
          this.txtSo1.Leave += new System.EventHandler(this.txtSo1_Leave);
          // 
          // label1
