@@ -36,3 +36,13 @@ C:\Users\DELL\Desktop\TEMP\KTPM\week5\Calculator\obj\Debug\Buoi07_TinhToan3.cspr
 C:\Users\DELL\Desktop\TEMP\KTPM\week5\Calculator\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\TEMP\KTPM\week5\Calculator\obj\Debug\Buoi07_TinhToan3.exe
 C:\Users\DELL\Desktop\TEMP\KTPM\week5\Calculator\obj\Debug\Buoi07_TinhToan3.pdb
+D:\_gitHub\calculator\bin\Debug\Buoi07_TinhToan3.exe.config
+D:\_gitHub\calculator\bin\Debug\Buoi07_TinhToan3.exe
+D:\_gitHub\calculator\bin\Debug\Buoi07_TinhToan3.pdb
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.csproj.AssemblyReference.cache
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.Form1.resources
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.Properties.Resources.resources
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.csproj.GenerateResource.cache
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.csproj.CoreCompileInputs.cache
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.exe
+D:\_gitHub\calculator\obj\Debug\Buoi07_TinhToan3.pdb
